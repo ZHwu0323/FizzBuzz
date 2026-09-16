@@ -5,12 +5,12 @@ package lab1;
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main() {
 
         doFizzBuzz();
     }
 
-    private static void doFizzBuzz() {
+    static void doFizzBuzz() {
         for (int i = 1; i <= 100; i++) {
 
             // Find out which numbers divide i.
@@ -36,5 +36,8 @@ class FizzBuzz {
 
             }
         }
+    }
+
+    public static void doFizzBuzz(int i) {
     }
 }
